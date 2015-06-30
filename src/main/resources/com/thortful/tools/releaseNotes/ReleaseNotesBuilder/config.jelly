@@ -1,0 +1,11 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+  <f:entry title="Filename" field="filename" description="File to save the changes log to, relative to ${WORKSPACE}">
+    <f:textbox />
+  </f:entry>
+
+  <f:entry title="No Change text" field="noChangesText" description="Default text to be used when the changes log is empty">
+    <f:textbox default="These aren't the changes you are looking for."/>
+  </f:entry>
+</j:jelly>

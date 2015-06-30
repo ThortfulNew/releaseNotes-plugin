@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+  Output the change log for a build in a file. Fits well with fabric.io beta distribution
+</div>
